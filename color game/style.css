@@ -1,0 +1,70 @@
+body {
+    background-color: #454545;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 0 ;
+}
+
+h1 {
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 0;
+    background-color: steelblue;
+    font-weight: normal;
+    padding: 1% 0;
+    line-height: 150%;
+    font-size: 275%;
+    transition: background-color 0.5s;
+}
+h1 span{
+    font-size: 1.75em;
+}
+
+#colors{
+    margin: 1% auto;
+    max-width: 50%;
+}
+
+#btn {
+    background-color: white;
+    text-align: center;
+}
+
+button {
+    border: none;
+    padding: none;
+    background-color: white;
+    font-size: 20px;
+    color: steelblue;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    transition-duration: 0.3s;
+    outline: none;
+}
+
+#message {
+    display: inline-block;
+    width: 20%;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+
+.box {
+    width: 30%;
+    margin: 1.66%;
+    background-color: blueviolet;
+    padding-bottom: 30%;
+    float: left;
+    border-radius: 15%;
+    transition: background-color 0.5s;
+}
+
+.black {
+    background-color: black;
+}
+
+.selected, button:hover {
+    color:white;
+    background-color: steelblue;
+}
